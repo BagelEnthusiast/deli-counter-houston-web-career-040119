@@ -19,5 +19,9 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{katz_deli.index(name) + 1} in line."
 end 
 
+def now_serving(katz_deli)
+  
+end
+
 puts line([])
 puts take_a_number(["nathan", "iqra", "ted"], "holly")
