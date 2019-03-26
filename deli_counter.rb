@@ -20,8 +20,8 @@ def take_a_number(katz_deli, name)
 end 
 
 def now_serving(katz_deli)
-  
+  puts "Currently serving #{katz_deli[0]}"
 end
 
 puts line([])
-puts take_a_number(["nathan", "iqra", "ted"], "holly")
+puts now_serving(["nathan", "iqra", "ted"])
