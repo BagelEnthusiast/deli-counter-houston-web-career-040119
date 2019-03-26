@@ -21,7 +21,7 @@ end
 
 def now_serving(katz_deli)
   puts "Currently serving #{katz_deli.shift}."
-  end
+end
 
 puts line([])
 puts now_serving(["nathan", "iqra", "ted"])
