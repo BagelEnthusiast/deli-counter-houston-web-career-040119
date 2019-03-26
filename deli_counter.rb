@@ -17,9 +17,9 @@ end
 def take_a_number(katz_deli, name)
   line = []
   katz_deli.each do |id|
-    line.push("Welcome, #{name}")
+    line.push("Welcome, #{name}. You are number #{katz_deli.index + 1} in line.")
   end
 end 
 
 puts line([])
-puts line(["nathan", "iqra", "ted"])
+puts take_a_number(["nathan", "iqra", "ted"], "nathan")
