@@ -17,7 +17,7 @@ end
 def take_a_number(katz_deli, name)
   line = []
   katz_deli.each do |id|
-    line.push("Welcome, #{name})"
+    line.push("Welcome, #{name}")
 end 
 
 puts line([])
