@@ -21,4 +21,4 @@ def take_a_number(katz_deli, name)
 end 
 
 puts line([])
-puts take_a_number(["nathan", "iqra", "ted"], "iqra")
+puts take_a_number(["nathan", "iqra", "ted"], "holly")
